@@ -21,10 +21,10 @@ export default function Counter() {
 					<h1>The Therapy Place</h1>
 					<p>Website coming soon. Please check back soon or email us to book a session today.</p>
 				</div>
-				<a className="cta" href="mailto:nisha@thetherapyplaceuk.com">
-					Send us an email
-				</a>
 			</main>
+			<a className="cta" href="mailto:nisha@thetherapyplaceuk.com">
+				Send us an email
+			</a>
 		</div>
 	);
 }
