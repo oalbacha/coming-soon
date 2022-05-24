@@ -1,0 +1,53 @@
+---
+// Component Imports
+import Counter from '../components/Counter.jsx';
+---
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link href="http://fonts.cdnfonts.com/css/louis-george-cafe" rel="stylesheet">
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			body {
+				font-family: 'Louis George Café', sans-serif;
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+			}
+
+			html,
+			body {
+				height: 100%;
+			}
+
+			a {
+				text-decoration: none;
+			}
+
+			a,
+			a:visited {
+				color: inherit;
+			}
+
+			#root {
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+			}
+
+		</style>
+		<title>The Therpay Place</title>
+	</head>
+	<body>
+		<Counter />
+	</body>
+</html>
+
+
