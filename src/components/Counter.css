@@ -34,6 +34,7 @@
 
 .content {
   min-height: 256px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -66,7 +67,7 @@
 
 @media screen and (max-width: 768px) {
   .content .title-holder {
-    max-width: 80%;
+
   }
 }
 
@@ -80,7 +81,7 @@
   font-size: 1em;
   font-weight: bold;
   color: #23254E;
-  margin-bottom: 20px;
+  margin: 0 30px;
   text-decoration: none;
 }
 
@@ -91,11 +92,16 @@
     margin-right: 1rem;
     transition: opacity 0.05s ease;
   }
+
   .content .logo {
-    width: 190px;
-    height: 190px;
+    width: 170px;
+    height: 170px;
     border-radius: 0;
     box-shadow: none;
+  }
+
+  .content .copy {
+    width: 90%;
   }
 
   .content .copy h1 {
