@@ -18,7 +18,7 @@ export default function Counter() {
 			<main className="content">
 				<img className="logo" src="./images/ttp-square-logo.svg" alt="the therapy place uk logo" />
 				<div className='copy'>
-					<h1>The Therapy Place</h1>
+					<h1>the therapy place</h1>
 					<p>Website coming soon. Please check back soon or email us to book a session today.</p>
 				</div>
 			</main>
