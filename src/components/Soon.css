@@ -2,8 +2,12 @@
   width: 90%;
   height: 100%;
   margin: 0 auto;
-  background: rgb(204,220,217);
-  background: linear-gradient(90deg, rgba(204,220,217,1) 0%, rgba(204,204,153,1) 100%);
+  background: rgb(204, 220, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 220, 217, 1) 0%,
+    rgba(204, 204, 153, 1) 100%
+  );
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -30,8 +34,8 @@
 .icon {
   height: 30px;
   width: 20px;
-  fill: #23254E;
-  color: #23254E;
+  fill: #23254e;
+  color: #23254e;
 }
 
 .content {
@@ -49,8 +53,7 @@
 
 .content .copy {
   text-align: center;
-  color: #23254E;
-
+  color: #23254e;
 }
 
 .content .copy h1 {
@@ -66,21 +69,20 @@
 }
 
 .cta {
-    min-width: 64px;
-    align-self: center;
-    width: 200px;
-    padding: 16px 24px;
-    background: #CE7F59;
-    border-radius: 50px;
-    cursor: pointer;
-    text-align: center;
-    font-size: 1em;
-    font-weight: bold;
-    color: #23254E;
-    margin: 80px 0;
-    text-decoration: none;
-  }
-
+  min-width: 64px;
+  align-self: center;
+  width: 150px;
+  padding: 16px 24px;
+  background: #749c93;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  color: #23254e;
+  margin: 80px 0;
+  text-decoration: none;
+}
 
 /* media queries */
 @media screen and (max-width: 768px) {
