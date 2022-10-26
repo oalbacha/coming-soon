@@ -33,15 +33,13 @@ export default function Soon() {
           alt="the therapy place uk logo"
         />
         <div className="copy">
-          <h1>Jill Zendera Creative Studio</h1>
           <p>
-            Website coming soon. Please check back soon or email us to book a
-            session today.
+            Website coming soon! For enquiries or a free design consultation
           </p>
         </div>
       </main>
       <a className="cta" href="mailto:jill@jillzenderacreativestudio.com">
-        Send us an email
+        contact us
       </a>
     </div>
   );
